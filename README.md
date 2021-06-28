@@ -1,3 +1,9 @@
+## Observações iniciais:
+Para o funcionamento do push é necessário que seu windows seja 10/server 2016 superior. Isso devido ao fato de usar http/2 conforme documentação da microsoft
+https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-10/http2-on-iis
+
+Se for usar o azure deve-se adicionar a configuração WEBSITE_LOAD_USER_PROFILE = 1. Essa configuração não é possivel no plano gratuito (compartilhado).
+
 ## PUSH IOS
 
 Abaixo irei explicar como configurar o envio de push para IOS, explicando as etapas desde a loja até a chamada da API de envio.
